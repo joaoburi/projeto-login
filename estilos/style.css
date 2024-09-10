@@ -5,3 +5,38 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+main {
+    
+}
+
+section {
+    scrollbar-width: ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 250px;
+    background-color: rgb(161, 161, 255);
+    height: 500px;
+    border-radius: 20px;
+    
+}
+
+#imagem {
+    
+    
+}
