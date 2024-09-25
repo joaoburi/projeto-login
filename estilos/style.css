@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 /*
     Paleta de cores
     Verde: #49a09d
@@ -15,6 +16,7 @@
 }
 
 body {
+    background-color: #5f2c82;
     width: 100%;
     height: 100%;
     margin: auto;
@@ -25,17 +27,16 @@ main {
 }
 
 section#login {
-    
+    background-color: white;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     
     width: 250px;
-    background-color: rgb(161, 161, 255);
-    height: 500px;
+
+    height: 520px;
     border-radius: 20px;
-    
 }
 
 img#imagem {
@@ -60,3 +61,35 @@ div#formulario p {
     font-size: smaller;
     
 }
+
+form {
+    
+}
+
+form div {
+    background-color: #5f2c82;
+    height: 40px;
+    margin: 5px 10px;
+    text-align: right; 
+    border-radius: 10px;
+}
+
+form div span {
+    color: white;
+    
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+
+
+form div input {
+    height: 35px;
+    width: 180px;
+    margin-top: 2.5px;
+    margin-right: 2.5px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(161, 199, 255);
+}
+
