@@ -9,30 +9,36 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 <body>
     <main>
-        <section id="login">
-            
-            <img id="imagem" src="imagens/pexels-dinnow-86001860-9444476.jpg" alt="">
-            
-            <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para poder acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <img id="imagem" src="imagens/pexels-dinnow-86001860-9444476.jpg" alt="">
+        
+        <div id="formulario">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para poder acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        </div>
+        <form action="login.php" method="post">
+            <div class="login">
+                <span id="ipessoa" class="material-symbols-outlined">
+                    person
+                </span>
+                <input type="email" name="#" id="#" placeholder="seu e-mail" maxlength="20" required>
             </div>
-            <form action="login.php" method="post">
-                <div id="email">
-                    <span id="ipessoa" class="material-symbols-outlined">
-                        person
-                    </span>
-                    <input type="email" name="" id="" placeholder="seu e-mail">
-                </div>
 
-                <div id="senha">
-                    <span id="ichave" class="material-symbols-outlined">
-                        vpn_key
-                    </span>
-                    <input type="password" name="" id="">
-                </div>
-            </form>
-        </section>
+            <div class="login">
+                <span id="ichave" class="material-symbols-outlined">
+                    vpn_key
+                </span>
+                <input type="password" name="#" id="#" placeholder="sua senha" minlength="8" maxlength="20" required>
+            </div>
+   
+            <div id="entrar">
+                <input type="submit" value="Entrar">
+            </div>
+            <br>
+            <div id="recuperacao">
+                <input type="button" value="Esqueci a senha">
+            </div>
+            
+        </form>
     </main>
 </body>
 </html>
