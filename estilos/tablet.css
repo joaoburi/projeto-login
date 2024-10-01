@@ -10,12 +10,20 @@
   main { 
     display: flex;
     width: 80%;
-    height: 270px;
+    height: 280px;
   }
 
   div#imagem {
       border-radius: 20px 0px 0px 20px;
-      width: 50%;
+      width: 45%;
       height: 100%;
+  }
+  
+  div#formulario {
+    width: 100%;
+  }
+
+  div#formulario h1 {
+    padding: 10px;
   }
 }
