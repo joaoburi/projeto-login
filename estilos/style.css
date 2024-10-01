@@ -121,13 +121,9 @@ form div#recuperacao {
     text-align: center;   
 }
 
-form div#recuperacao div#cont {
-    padding-top: 10px;
-}
-
-form div#recuperacao div#cont span#icoemail {
-    vertical-align: top;
-    font-size: medium;
+form div#recuperacao a {
+    text-decoration: none;
+    color: red;
 }
 
 form div#recuperacao:hover {

@@ -20,19 +20,23 @@
             <h1>Login</h1>
             <p>Seja bem-vindo(a) novamente. Faça login para poder acessar sua conta e poder fazer as configurações no seu ambiente.</p>
         
-            <form action="login.php" method="post">
+            <form action="login.php" method="post" autocomplete="on">
                 <div class="login">
-                    <span id="ipessoa" class="material-symbols-outlined">
-                        person
-                    </span>
-                    <input type="email" name="#" id="#" placeholder="seu e-mail" maxlength="20" required>
+                    <label for="pessoa">
+                        <span id="ipessoa" class="material-symbols-outlined">
+                            person
+                        </span>
+                    </label>
+                    <input type="email" name="#" id="pessoa" placeholder="seu e-mail" maxlength="20" required>
                 </div>
 
                 <div class="login">
-                    <span id="ichave" class="material-symbols-outlined">
-                        vpn_key
-                    </span>
-                    <input type="password" name="#" id="#" placeholder="sua senha" minlength="8" maxlength="20" required>
+                    <label for="chave">
+                        <span id="ichave" class="material-symbols-outlined">
+                            vpn_key
+                        </span>
+                    </label>
+                    <input type="password" name="#" id="chave" placeholder="sua senha"  minlength="8" maxlength="20" required>
                 </div>
     
                 <div id="entrar">
@@ -40,13 +44,12 @@
                 </div>
                 
                 <div id="recuperacao">
-                    
-                    <div id="cont">
+                    <a href="#">
                         Esqueci a senha
                         <span id="icoemail" class="material-symbols-outlined">
                             mail
                         </span>
-                    </div>
+                    </a>
                     
                 </div>
                 
