@@ -1,19 +1,10 @@
 @charset "UTF-8";
 
-/*
-    Paleta de cores
-    Verde: #49a09d
-    Lilás: #5f2c82
-
-    URL completa: 
-    https://professorguanabara.github.io/projeto-login/
-*/
 
 * {
     padding: 0px;
     margin: 0px;
 }
-
 
 body {
     background-color: #5f2c82;
@@ -22,30 +13,26 @@ body {
 }
 
 main {
-    
-    
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.295);
     background-color: white;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);  
     width: 250px;
     height: 520px;
     border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
 
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 
 div#imagem {
-    
     background: #5f2c82 url("../imagens/predio1.jpg") no-repeat;
     background-position: left bottom;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
-    
     height: 40%;
 }
 
@@ -103,6 +90,7 @@ form div#entrar input {
     color: white;
     font-size: 15px;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.199);
+    cursor: pointer;
 }
 
 form div#entrar input:hover {
@@ -115,15 +103,15 @@ form div#recuperacao {
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid rgb(64, 126, 134);
-    color: rgb(64, 126, 134);
     font-size: 15px;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.199);
     text-align: center;   
+    cursor: pointer;
 }
 
 form div#recuperacao a {
     text-decoration: none;
-    color: red;
+    color: rgb(64, 126, 134);
 }
 
 form div#recuperacao:hover {
